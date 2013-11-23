@@ -1,4 +1,34 @@
-node-time-ago
-=============
+# timeago
 
-node.js time ago functionality to display time ago in words
+make your dates looks like facebook/twitter.
+
+![timeago](http://i.imgur.com/W1Zwy.png)
+
+#install
+
+    npm install timeago
+
+#usage
+
+````javascript
+var timeago = require('timeago');
+
+timeago(someDate); //"x days ago"
+timeago.settings; //will desplay all settings you can edit
+
+````
+make sure `someDate` is a `Date` object.
+
+You can also use it in Express app templates:
+
+````javascript
+var app = express.createServer();
+
+app.helpers({
+  timeago: require('timeago')
+});
+````
+
+````ejs
+<div class="timeago"><%- timeago(widget.created) %></div>
+````
