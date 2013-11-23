@@ -29,7 +29,7 @@ You can also use it in Express app templates:
 var app = express.createServer();
 
 app.helpers({
-  timeago: require('timeago')
+  timeago: require('timeago-words')
 });
 ````
 
