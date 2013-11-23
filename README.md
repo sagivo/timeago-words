@@ -9,6 +9,7 @@ make your dates looks like facebook/twitter.
     npm install timeago-words
 
 or from your `package.json` file:
+
     "dependencies": { "timeago-words": "x" }
 
 #usage
