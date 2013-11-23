@@ -6,7 +6,10 @@ make your dates looks like facebook/twitter.
 
 #install
 
-    npm install timeago
+    npm install timeago-words
+
+or from your `package.json` file:
+    "dependencies": { "timeago-words": "x" }
 
 #usage
 
