@@ -15,7 +15,7 @@ or from your `package.json` file:
 #usage
 
 ````javascript
-var timeago = require('timeago');
+var timeago = require('timeago-words');
 
 timeago(someDate); //"x days ago"
 timeago.settings; //will desplay all settings you can edit
