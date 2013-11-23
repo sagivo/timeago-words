@@ -1,0 +1,22 @@
+{
+  "name": "timeago-words",
+  "version": "0.0.1",
+  "description": "display time ago in words",
+  "scripts": {
+    "prepublish": "coffee --bare --compile --output lib src/*.coffee"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagivo/node-time-ago"
+  },
+  "devDependencies": {"coffee-script": ">= 1.3"},
+  "keywords": [ "node", "time-ago" ],
+  "engines": { "node": ">= 0.8.0" },
+  "author": "sagiv ofek",
+  "license": { 
+    "type": "MIT",
+    "url":  "http://github.com/assaf/zombie/blob/master/MIT-LICENSE"
+  },
+  "bugs": { "url": "https://github.com/sagivo/node-time-ago/issues" }
+}
