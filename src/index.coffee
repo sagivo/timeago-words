@@ -1,6 +1,6 @@
 module.exports = (since, o = {}) ->
-  o.till ?= new Date()
-  o.language ?= 'en'
+  o.till = o.till || new Date()
+  o.language = o.language || 'en'
   inWords o.till.getTime() - since.getTime(), o.language
 
 module.exports.settings =
@@ -48,7 +48,7 @@ inWords = (distanceMillis, ln = 'en') ->
 
 translate = (ln) ->    
   if ln == 'pt'
-    suffixAgo: "atrás"
+    suffixAgo: ""
     suffixFromNow: "agora"
     seconds: "menos de um minuto"
     minute: "aproximadamente um minuto"
