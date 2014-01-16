@@ -1,6 +1,6 @@
 module.exports = (since, o = {}) ->
-  o.till ||= new Date()
-  o.language || = 'en'
+  o.till ?= new Date()
+  o.language ?= 'en'
   inWords o.till.getTime() - since.getTime(), o.language
 
 module.exports.settings =
