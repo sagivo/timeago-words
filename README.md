@@ -36,3 +36,8 @@ app.helpers({
 ````ejs
 <div class="timeago"><%- timeago(widget.created) %></div>
 ````
+
+to use custom language:
+````javascript
+  timeago(someDate, 'pt')
+````
