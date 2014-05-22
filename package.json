@@ -1,6 +1,6 @@
 {
   "name": "timeago-words",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "display time ago in words",
   "scripts": {
     "prepublish": "coffee --bare --compile --output lib src/*.coffee"

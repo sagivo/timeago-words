@@ -1,4 +1,4 @@
-module.exports = (since, o = {}) ->
+module.exports = (since = new Date(), o = {}) ->
   o.till = o.till || new Date()
   o.language = o.language || 'en'
   inWords o.till.getTime() - since.getTime(), o.language
