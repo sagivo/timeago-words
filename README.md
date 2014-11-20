@@ -39,5 +39,5 @@ app.helpers({
 
 to use custom language:
 ````javascript
-  timeago(someDate, 'pt')
+  timeago(someDate, {language: 'pt'})
 ````
