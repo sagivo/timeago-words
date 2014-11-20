@@ -1,6 +1,6 @@
 # timeago
 
-make your dates looks like facebook/twitter.
+make your dates look like facebook/twitter.
 
 ![timeago](http://i.imgur.com/W1Zwy.png)
 
